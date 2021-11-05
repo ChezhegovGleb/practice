@@ -12,10 +12,10 @@ public class Algorithms {
                 continue;
             }
             int j = pi.get(i - 1);
-            while (j > 0 && s.charAt(i) != s.charAt(j) && s.charAt(i) != '*' && s.charAt(j) != '*') {
+            while (j > 0 && s.charAt(i) != s.charAt(j)) {
                 j = pi.get(j - 1);
             }
-            if (s.charAt(i) == s.charAt(j) || s.charAt(i) == '*' || s.charAt(j) == '*') {
+            if (s.charAt(i) == s.charAt(j)) {
                 j++;
             }
             pi.set(i, j);

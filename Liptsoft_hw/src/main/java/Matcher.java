@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Collections;
-
 public class Matcher {
     static Boolean matches(String className, String pattern, Boolean isBlankOnEndOfPattern) {
         int indexPattern = 0;
@@ -9,7 +6,7 @@ public class Matcher {
         if (pattern.toLowerCase().equals(pattern)) {
             String classNameInLowerCase = className.toLowerCase();
 
-            if (Algorithms.KnuthMorrisPratt(pattern, classNameInLowerCase, isBlankOnEndOfPattern)) {
+            if (!pattern.contains("*") && Algorithms.KnuthMorrisPratt(pattern, classNameInLowerCase, isBlankOnEndOfPattern)) {
                 return true;
             }
 
@@ -29,7 +26,7 @@ public class Matcher {
                 }
             }
         } else {
-            if (Algorithms.KnuthMorrisPratt(pattern, className, isBlankOnEndOfPattern)) {
+            if (!pattern.contains("*") && Algorithms.KnuthMorrisPratt(pattern, className, isBlankOnEndOfPattern)) {
                 return true;
             }
 

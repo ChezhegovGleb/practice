@@ -2,6 +2,8 @@
 
 A simplified Java version of the class search has been implemented.
 
+The solution is based on the Knutt-Morris-Pratt Algorithm and the Two Pointer Algorithm
+
 The program runs from the command line:
 ```
 ./class-finder <filename> '<pattern>'
@@ -31,25 +33,6 @@ also be the last word of the found class name (`'FBar '` finds `FooBar` but not 
 The search pattern may include wildcard characters `'*'` which match missing letters
 (`'B*rBaz'` finds `FooBarBaz`i but `BrBaz` does not).
 
-The found class names must be sorted in alphabetical order ignoring package names
-(package names must still be included in the output).
+Found classes are sorted alphabetically without regard to package name.
 
-Solution limitations:
-- Regexp must not be used.
-- Use of other libraries (other than the language itself) is prohibited.
-
-Solution requirements:
-- Unit tests must be present. For unit tests you are allowed to use libraries
-(such as JUnit, Rspec, Jasmine and equivalent)
-
-It is good enough if the solution implements the functionality described in this file.
-To get familiar with the Intellij IDEA class finder functionality you can try it
-out in the IDE but be informed that the real search has some extra complexity
-not described here.
-
-Included with this homework are primitive examples of command-line programs in different languages.
-You do not have to follow their style or use them at all.
-
-```
-./class-finder-<language> classes.txt 'FooBar'
-```
+Unit tests are provided for the Matcher class.

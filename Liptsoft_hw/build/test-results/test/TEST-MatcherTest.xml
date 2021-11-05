@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MatcherTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-11-05T16:02:43" hostname="asus" time="0.079">
+<testsuite name="MatcherTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2021-11-05T19:10:11" hostname="asus" time="0.068">
   <properties/>
-  <testcase name="SimplePatternAndManyClassesTest()" classname="MatcherTest" time="0.058"/>
-  <testcase name="patternInLowerCaseTest()" classname="MatcherTest" time="0.002"/>
-  <testcase name="simpleTest()" classname="MatcherTest" time="0.001"/>
+  <testcase name="SimplePatternAndManyClassesTest()" classname="MatcherTest" time="0.051"/>
+  <testcase name="patternInLowerCaseTest()" classname="MatcherTest" time="0.001"/>
+  <testcase name="simpleTest()" classname="MatcherTest" time="0.0"/>
   <testcase name="emptyTest()" classname="MatcherTest" time="0.001"/>
-  <testcase name="patternWithStarTest()" classname="MatcherTest" time="0.0"/>
+  <testcase name="patternWithStarTest()" classname="MatcherTest" time="0.001"/>
   <testcase name="patternWithBlankAtTheEndSecondTest()" classname="MatcherTest" time="0.001"/>
   <testcase name="patternInLowerCaseNotFoundTest()" classname="MatcherTest" time="0.0"/>
-  <testcase name="patternWithBlankAtTheEndThirdTest()" classname="MatcherTest" time="0.001"/>
+  <testcase name="patternWithBlankAtTheEndThirdTest()" classname="MatcherTest" time="0.0"/>
   <testcase name="SimplePatternAndManyClassesSecondTest()" classname="MatcherTest" time="0.001"/>
   <testcase name="patternWithBlankAtTheEndTest()" classname="MatcherTest" time="0.001"/>
-  <testcase name="SimplePatternAndManyClassesThirdTest()" classname="MatcherTest" time="0.001"/>
+  <testcase name="SimplePatternAndManyClassesThirdTest()" classname="MatcherTest" time="0.0"/>
   <testcase name="notMatchedClassTest()" classname="MatcherTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
